@@ -32,13 +32,12 @@ for K in range(N):
         d += a[n]*complex(round(m.real, 2), round(m.imag, 2))
     res.append(d)
     
-print("X(K): {}\n".format(res))
-pol = [list(cmath.polar(x)) for x in res]
+pol = [list(cmath.polar(x)) for x in res]  
 
 # for increased precision and angle in radians remove this for loop
 for i in pol:
     i[0] = round(i[0], 6)
     i[1] = round(i[1]*180/math.pi, 2)
-
-    
+  
+print("X(K): {}\n".format(res))
 print("Polar Form: {}".format(pol))
