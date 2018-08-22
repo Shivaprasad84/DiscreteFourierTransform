@@ -5,12 +5,12 @@ N = int(input('N: '))
 
 # Discrete fourier transform:
 Xk = dsp.dft(Xn, N)
-print('X(k): ', Xk)
+print('X(k): {}'.format(Xk))
 
 # Polar form of Xk:
 pol = dsp.polar(Xk)
-print('Polar Form: ', pol)
+print('Polar Form: {}'.format(pol))
 
 # Inverse discrete fourier transform:
 Xn = dsp.idft(Xk, N)
-print(Xn)
+print('Idft: {}'.format(Xn))
