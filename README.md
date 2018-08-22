@@ -1,2 +1,4 @@
-# DiscreteFourierTransform
-A program which calculates the DFT X(k) for a given x(n) and N and presents the output in both rectangular an polar form.
+# Digital Signal Processing:
+
+This program calculates the discrete fourier transform of a discrete time sequence x(n) over N samples and the answer is available in both rectangular and polar form.
+This program also calculates the inverse discrete fourier transform of a given x(k) and N.
