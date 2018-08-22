@@ -1,6 +1,6 @@
 import dsp
 
-Xn = [complex(x) for x in input('x(n): ').strip().split()]
+Xn = [complex(x) for x in input('x(n): ').strip().split(', ')]
 N = int(input('N: '))
 
 # Discrete fourier transform:
