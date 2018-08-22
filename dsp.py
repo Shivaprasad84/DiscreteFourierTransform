@@ -48,4 +48,5 @@ def polar(Xk):
     for i in pol:
         i[0] = round(i[0], 6)
         i[1] = round(i[1]*180/math.pi, 2)
+    pol = [tuple(x) for x in pol]
     return pol
